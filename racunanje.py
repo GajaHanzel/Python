@@ -1,0 +1,9 @@
+def kalkulator(num1, num2, operacija):
+    if operacija == "+":
+        return num1 + num2
+    elif operacija == "-":
+        return num1 - num2
+    elif operacija == "*":
+        return num1 * num2
+    elif operacija == "/":
+        return num1 / num2
